@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>kami AppliKations home</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
@@ -12,7 +12,76 @@
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </head>
-  <body>
-    <h1>Hello, world!!!!</h1>
+  <body style=>
+    <div style="text-align:center; background-color:gray; ">
+      <h1>Kami's AppliKationS</h1>
+      <h3><a href="https://kamitetsuyuki.github.io">please access https://kamitetsuyuki.github.io</a></h3>
+    </div>
+    <div style="text-align:center; background-color:skyblue; ">
+      <h3>プロフィール</h3>
+      <p>
+        　上徹行大阪生まれ<br>
+        　現在プログラミング学習中<br>
+      　　　html,css,bootstrap,ruby を習得しオリジナルアプリケーションの開発中  </p>
+    </div>
+      <div class="apps">
+      <div class="row" style="color:white; text-align:center; text-shadow: black 0.5px 0.5px;">
+        <div class="col-sm-3" style="padding:10px 10px 20px 10px;  background-color:red;">
+          <p>app1
+          <br>開発中</p>
+          <img src="app1.jpg" alt="" style="max-width: 120px;">
+          </div>
+        
+        <div class="col-sm-3" style="padding:10px 10px 20px 10px; text-align:center; background-color:blue;">
+          <p>app2
+          <br>開発中</p>
+          <img src="app2.jpg" alt="" style="max-width: 120px; ">
+        </div>
+        
+        <div class="col-sm-3" style="padding:10px 10px 20px 10px; text-align:center; background-color:green;">
+          <p>app3
+          <br>開発中</p>
+          <img src="app3.jpg" alt="" style="max-width: 120px;">
+        </div>
+        
+        <div class="col-sm-3" style="padding:10px 10px 20px 10px; text-align:center; background-color:orange;">
+          <p>app4
+          <br>開発中</p>
+          <img src="app4.jpg" alt="" style="max-width: 120px; ">
+        </div>
+         
+      </div>
+    </div>
+    
+    <div class="row" style="background-color:gray;">
+     <div class="col-sm-6" style="text-align:center;">
+     <h3>お問い合わせ</h3>
+     <form action="" method="post">
+       <input type="hidden" value="secret_data">
+       <label>名前：<input type="text" name="login_name"></label><br>
+       <label>メールアドレス：<input type="text" name="email"></label><br>
+       <p>関心を持ったアプリ</p>
+       <label>app1<input type="checkbox" name="hobby" value="1"></label>
+       <label>app2<input type="checkbox" name="hobby" value="2"></label>
+       <label>app3<input type="checkbox" name="hobby" value="3"></label>
+       <label>app4<input type="checkbox" name="hobby" value="4"></label>
+     </div>
+     <div class="col-sm-6" style="text-align:center;">
+      <p>お問い合わせ内容を400字以内で記述してください。</p>
+      <textarea name="opinion" cols="40" rows="10" maxlength="400"
+        placeholder="ご意見を入力してください。"></textarea>
+     <input type="submit" value="送信">
+     </div>
+    </div>
+     </form>
+    
+    
+    
+    
+    
   </body>
+　
+
+
+
 </html>
